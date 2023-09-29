@@ -12,5 +12,5 @@ To get started with this course, follow these steps:
 To clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/mirzaaa101/web-programming-course.git
+   git clone https://github.com/mirzaaa101/Web-Programming.git
 
