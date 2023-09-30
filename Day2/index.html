@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <img src="demo.png" alt="demo_picture" height="300px" width="400px">
+    <table>
+        <form action="#">
+            <tr>
+                <td><b>Name:</b></td>
+                <td><input type="text" placeholder="Enter Your Name..." required id="name_input"></td>
+            </tr>
+            <tr>
+                <td><b>Password:</b></td>
+                <td><input type="password" placeholder="Enter Your Password..." required></td>
+            </tr>
+            <tr>
+                <td><b>Country:</b></td>
+                <td>
+                    <select name="Country" id="country">
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="India">India</option>
+                        <option value="Pakistan">Pakistan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Gender:</b></td>
+                <td>
+                    <input type="radio" name="gnd" value="M">
+                    <label for="m">Male</label>
+                    <input type="radio" name="gnd" value="F">
+                    <label for="f">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Home Delivary:</b></td>
+                <td>
+                    <input type="checkbox">
+                    <label for="y">Yes</label>
+                    <input type="checkbox">
+                    <label for="n">No</label>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Upload Slip:</b></td>
+                <td>
+                    <input type="file" name="slip" id="slip" placeholder="Choose Slip" accept="image/*">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <br>
+                    <button type="submit" value="submit" id="btn">Upload & Submit</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
+
+<!-- CSS style:
+1. Separate CSS file
+2. Inline style attibute
+3. Using style tag -->
+
+<!-- At HTML tag:
+1. for id use # in CSS
+2. for class use . in css -->

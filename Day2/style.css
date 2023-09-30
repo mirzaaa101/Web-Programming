@@ -1,0 +1,22 @@
+body{
+    background-color: white;
+}
+#btn{
+    background-color: orangered;
+    height: 50px;
+    width: 180px;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+
+#name_input{
+    height: 50px;
+    width: 200px;
+    color: rgb(34, 34, 165);
+    font-weight: bolder;
+    border: 2px dotted green;
+    border-radius: 7px;
+    background: transparent;
+}
