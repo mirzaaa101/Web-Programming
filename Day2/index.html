@@ -7,21 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    <img src="demo.png" alt="demo_picture" height="300px" width="400px">
-    <table>
-        <form action="#">
+    <img src="demo.png" alt="demo_picture" height="300px" width="400px" style="padding-left: 30%;">
+    <table class="table">
+        <form action="#" >
             <tr>
-                <td><b>Name:</b></td>
-                <td><input type="text" placeholder="Enter Your Name..." required id="name_input"></td>
+                <td class="field"><b>Name:</b></td>
+                <td><input type="text" placeholder="Enter Your Name..." required class="form"></td>
             </tr>
             <tr>
-                <td><b>Password:</b></td>
-                <td><input type="password" placeholder="Enter Your Password..." required></td>
+                <td class="field"><b>Password:</b></td>
+                <td><input type="password" placeholder="Enter Your Password..." required class="form"></td>
             </tr>
             <tr>
-                <td><b>Country:</b></td>
+                <td class="field"><b>Country:</b></td>
                 <td>
-                    <select name="Country" id="country">
+                    <select name="Country" id="country" class="form">
                         <option value="Bangladesh">Bangladesh</option>
                         <option value="India">India</option>
                         <option value="Pakistan">Pakistan</option>
@@ -29,7 +29,7 @@
                 </td>
             </tr>
             <tr>
-                <td><b>Gender:</b></td>
+                <td class="field"><b>Gender:</b></td>
                 <td>
                     <input type="radio" name="gnd" value="M">
                     <label for="m">Male</label>
@@ -38,7 +38,7 @@
                 </td>
             </tr>
             <tr>
-                <td><b>Home Delivary:</b></td>
+                <td class="field"><b>Home Delivary:</b></td>
                 <td>
                     <input type="checkbox">
                     <label for="y">Yes</label>
@@ -47,13 +47,13 @@
                 </td>
             </tr>
             <tr>
-                <td><b>Upload Slip:</b></td>
+                <td class="field"><b>Upload Slip:</b></td>
                 <td>
                     <input type="file" name="slip" id="slip" placeholder="Choose Slip" accept="image/*">
                 </td>
             </tr>
             <tr>
-                <td colspan="2" align="center">
+                <td colspan="2" align="center" class="field">
                     <br>
                     <button type="submit" value="submit" id="btn">Upload & Submit</button>
                 </td>
