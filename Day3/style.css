@@ -1,0 +1,75 @@
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+#main-div{
+    height: 450px;
+    width: 540px;
+    background-color:transparent;
+    margin: 5% 0 0 5%;
+    box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.963);
+    border-radius: 20px;
+}
+form{
+    margin: 10% 10% 0 10%;
+    display: flex;
+    padding-top: 10%;
+}
+th{
+    padding-left: 20%;
+}
+label{
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    padding-right: 20px;
+}
+input{
+    padding: 8px 30px;
+    background: transparent;
+    border-radius: 10px;
+    border-color: white;
+}
+.btn{
+    background-color: #5890FF;
+    border-radius: 5%;
+    border-color: #5890FF;
+    padding: 8px 15px;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.btn:hover{
+    background-color: #5890ffb8;
+}
+.sign_in{
+    text-align: center;
+    margin-left: 8%;
+    color: white;
+}
+.active{
+    background-color: #1cbdd2;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+li {
+    float: left;
+  }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color: #111;
+  }
