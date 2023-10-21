@@ -1,0 +1,22 @@
+#header{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+}
+#left{
+    background-color: red;
+    height: 500px;
+    width: 40%;
+    float: left;
+}
+#right{
+    background-color:blue;
+    height: 500px;
+    width: 60%;
+    float: right;
+}
+#footer{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
