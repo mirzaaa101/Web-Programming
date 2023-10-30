@@ -1,5 +1,7 @@
 body{
     background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #main{
     height: 600px;

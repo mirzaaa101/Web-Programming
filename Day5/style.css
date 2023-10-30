@@ -1,0 +1,36 @@
+body{
+    background-image: url('background_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#left{
+    width: 400px;
+    height: 500px;
+    float: left;
+    background-color: white;
+    margin-left: 8%;
+}
+#right{
+    width: 400px;
+    height: 500px;
+    background-color:white;
+    float: right;
+    margin-right: 10%;
+}
+#form{
+    margin: 30% 0 0 5%;
+}
+.p-tag{
+    color: #ff9900;
+}
+#profile{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 40%;
+}
+#btn{
+    background-color: rgb(208, 201, 201);
+    width: 70px;
+    margin-left: 150px;
+}
