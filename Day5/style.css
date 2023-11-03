@@ -1,36 +1,97 @@
 body{
-    background-image: url('background_image.jpg');
+    background-image: url('background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 #left{
-    width: 400px;
-    height: 500px;
+    height: 550px;
+    width: 500px;
+    margin: 2% 0 0 5%;
     float: left;
     background-color: white;
-    margin-left: 8%;
+}
+#text{
+    height: 200px;
+    width: 400px;
+    float: right;
+    background-color: transparent;
+    margin-bottom: 0;
 }
 #right{
+    height: 700px;
     width: 400px;
-    height: 500px;
-    background-color:white;
+    margin: 2% 5% 0 0;
     float: right;
-    margin-right: 10%;
+    background-color: transparent;
 }
-#form{
-    margin: 30% 0 0 5%;
+#inner{
+    height: 450px;
+    width: 400px;
+    float: right;
+    background-color: white;
 }
-.p-tag{
+.support-text{
     color: #ff9900;
+    text-align: left;
+}
+.input{
+    height: 30px;
+    width: 450px;
+    background-color: rgba(233, 225, 225, 0.514);
+    border-color: darkgray;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.input::placeholder{
+    color: rgb(34, 32, 32);
+    text-align: left;
+}
+#icon{
+    position: absolute;
+    font-size: 15px;
+    margin: 10px 0 0 5px;
+}
+.date{
+    width: 45px;
+    height: 30px;
+    background-color: rgba(233, 225, 225, 0.514);
+    border-color: darkgray;
+}
+#innner-left{
+    float: left;
+    display: flex;
+}
+#innner-right{
+    float: right;
+    display: block;
+}
+.gender{
+    width: 60px;
+    height: 30px;
+    background-color: rgba(233, 225, 225, 0.514);
+    border-color: darkgray;
+}
+.card{
+    width: 225px;
+    height: 30px;
+    background-color: rgba(233, 225, 225, 0.514);
+    border-color: darkgray;
 }
 #profile{
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    margin-left: 40%;
-}
-#btn{
-    background-color: rgb(208, 201, 201);
+    height: 70px;
     width: 70px;
-    margin-left: 150px;
+    border-radius: 50%;
+    border-color: white;
+    margin-left: 38%;
+}
+#line{
+    border-color: #ff9900;
+    background-color: #ff9900;
+    height: 3px;
+}
+.btn{
+    display: inline;
+    height: 30px;
+    width: 50px;
 }

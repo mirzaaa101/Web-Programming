@@ -3,60 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>MID Practise</title>
+    <title>Day5</title>
 </head>
 <body>
     <div id="left">
-        <table id="table">
-            <form action="" id="form">
-                <p class="p-tag">Account</p>
-                <tr><td><input type="text" placeholder="Full Name"></td></tr>
-                <tr><td><input type="email" placeholder="Email Address"></td></tr>
-                <tr><td><input type="password" placeholder="Password"></td></tr>
-                <tr>
-                    <td>
-                        <p class="p-tag">Date of Birth</p>
-                        <input type="date" placeholder="Password">
-                    </td>
-                    <td>
-                        <p class="p-tag">Gender</p>
-                        <input type="text" placeholder="Password">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="p-tag">Payment Details</p>
-                        <input type="text" placeholder="Password">
-                        <input type="text" placeholder="Password">
-                    </td>
-                </tr>
-                <tr><td><input type="text" placeholder="Card Number"></td></tr>
-                <tr>
-                    <td>
-                        <input type="text" placeholder="Card CVC">
-                        <input type="month" id="start" name="start" min="01 jan" value="01 jan" />
-                        <input type="year" id="start" name="start" min="2015" value="2015" />
-                    </td>
-                </tr>
-                <tr><td><p class="p-tag"> Terms and Conditions</p></td></tr>
-                <tr><td><input type="checkbox" name="" id="" style="background-color: darkgrey;"> I accept the teams and condition </td></tr>
-            </form>
-        </table>
+        <form action="">
+            <p class="support-text"> Account</p>
+            <i class="fas fa-user" id="icon"></i>
+            <input type="text" placeholder="Full Name" class="input"> <br>
+            <i class="fas fa-envelope" id="icon"></i>
+            <input type="email" placeholder="Email" class="input"> <br>
+            <i class="fas fa-key" id="icon"></i>
+            <input type="password" placeholder="Password" class="input"> <br>
+            <div id="innner-left">
+                <p class="support-text" style="display: inline;">
+                    Date of Birth <br>
+                   <input type="text" placeholder="DD" class="date">
+                   <input type="text" placeholder="MM" class="date">
+                   <input type="text" placeholder="YYYY" class="date">
+                </p>
+            </div>
+            <div id="innner-right">
+                <p class="support-text">
+                    Gender <br>
+                   <input type="text" placeholder="Male" class="gender">
+                   <input type="text" placeholder="Female" class="gender">
+                </p>
+            </div>
+            <p class="support-text" style="clear: both;">
+                Payment Details <br>
+                <input type="text" placeholder="Credit Card" style="background-color: #ff9900;" class="card">
+                <input type="text" placeholder="Paypal" class="card">
+            </p>
+            <p class="support-text">
+                Card Number <br>
+                <input type="text" placeholder="Card Number" class="input">
+                <input type="text" placeholder="Card CVC" class="card">
+                <input type="text" placeholder="01 Jan" class="date">
+                <input type="text" placeholder="2015" class="date">
+            </p>
+            <p class="support-text"> Terms and Conditions</p>
+            <label style="display: flex; align-items: center;">
+                <input type="checkbox" name="" id="" style="margin: 0;">
+                <p style="color: darkgray; margin: 0 0 0 10px;">I accept the terms and conditions</p>
+            </label>
+        </form>
     </div>
     <div id="right">
-        <img src="profile.jpg" alt="" id="profile">
-        <h3 style="text-align: center;">Web Programming</h3>
-        <h6 style="text-align: center; color: darkgrey;"> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</h6>
-        <button id="btn"> HTML </button>
-        <Button style="background-color: rgb(208, 201, 201);width: 70px;"> CSS </Button>
-        <hr style="color: #ff9900; height: 2px;border-color: #ff9900;background-color: #ff9900;">
-        <h1 style="color: darkgray;text-align: center;">&#8221</h1>
-        <p style="color: rgb(108, 97, 97); text-align: center;">
-            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-        </p>
-        <a href="" style="text-decoration: none; color: #ff6600;margin-left: 40%;"> Submit Mid here</a>
+        <div id="text">
+            <h2 style="text-align: center;">MID Term Form</h2>
+            <p style="text-align: center;color: blueviolet;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum laboriosam est, quasi odit, fuga qui exercitationem nemo, sed quidem temporibus molestias? Sunt sint ut ab obcaecati, exercitationem non quam facere</p>
+        </div>
+        <div id="inner">
+            <img src="profile.jpg" alt="" id="profile">
+            <h2 style="text-align: center;">Web Programming</h2>
+            <p style="text-align: center;color: darkgray;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum laboriosam est, quasi odit.</p>
+            <button class="btn" style="margin-left: 40%;">Html</button>
+            <button class="btn">CSS</button>
+            <hr id="line">
+            <h1 id="qoute" style="text-align: center;margin-bottom: 0;">&#65282;</h1>
+            <p style="text-align: center;color: darkgray;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum laboriosam est, quasi odit, fuga qui exercitationem nemo, sed quidem temporibus molestias? Sunt sint ut ab obcaecati, exercitationem non quam facere</p>
+            <a href="" style="text-align: center;text-decoration: none;color: #ff6600;margin-left: 40%;">Submit Mid Here</a>
+        </div>
     </div>
 </body>
 </html>
