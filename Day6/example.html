@@ -1,0 +1,49 @@
+<!-- Question: Show Total Bill After Submit Button is Pressed
+Consider the following thing:
+1. Per pineapple -> 12.5/=
+2. #pineapple discount
+    1-9 -> 10%
+    10-19 -> 15%
+    >= 20 -> 20%
+------------------------
+3. Delivery YES -> 40/=
+            No -> 0
+------------------------
++ tip
+------------------------
+If Location is Dhaka -> 20% tax
+               other -> 10% tax
+------------------------------
+Show: Your total bill is XXXX taka. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+</head>
+
+<body>
+    Enter the number of pineapple:
+    <input type="text" id="pineapple"><br>
+    Home Delivery:
+    <input type="radio" id="delivery" value="yes">YES
+    <input type="radio" id="delivery" value="no">NO<br>
+    Tip:
+    <input type="text" id="tip"><br>
+    Location:
+    <select id="location">
+        <option value="dhaka">Dhaka</option>
+        <option value="other">Other</option>
+    </select><br>
+    <input type="submit" value="calculate" onclick="showBill()">
+    <label for="" id="show"></label>
+
+    <script src="example.js"></script>
+</body>
+
+</html>
