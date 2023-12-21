@@ -3,7 +3,7 @@ Welcome to the "Web Programming" repository by Mirza Abbas Uddin at UIU. This re
 
 ## Course Overview
 
-This course covers essential web development technologies, including HTML, CSS, JavaScript, and PHP. Each day's folder contains the respective course materials and exercises for that day's topic.
+This course covers essential web development technologies, including HTML, CSS, JavaScript, and PHP. Each week's folder contains the respective course materials and exercises for that week's topic.
 
 ## Getting Started
 
