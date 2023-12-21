@@ -1,0 +1,17 @@
+Question: Show Total Bill After Submit Button is Pressed
+Consider the following thing:
+1. Per pineapple -> 12.5/=
+2. #pineapple discount
+    1-9 -> 10%
+    10-19 -> 15%
+    >= 20 -> 20%
+------------------------
+3. Delivery YES -> 40/=
+            No -> 0
+------------------------
+4. + tip
+------------------------
+5. If Location is Dhaka -> 20% tax
+               other -> 10% tax
+------------------------------
+Show: Your total bill is XXXX taka.
